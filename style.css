@@ -1,0 +1,66 @@
+/* https://hightoweraccess.com/-hizontalscroller */
+
+.feature-slide{
+    /* padding-bottom: 25px; */
+    /* background: red; */
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+    overflow: scroll;
+}
+
+
+
+
+
+    ::-webkit-scrollbar {
+        width: 1px;
+        height: 20px;
+        /* background-color: grey; */
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        height: 20px;
+        background-color: gray;
+        border-top: 9px solid #ffffff;
+        border-bottom: 8px solid #ffffff;
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+
+        height: 10px;
+    background-color: #ffa000;
+      }
+      
+      
+    
+div{
+    padding: 0 25px 35px 25px;
+    min-width:25%;
+    /* background-color: aquamarine; */
+    /* border: 1px solid red; */
+}
+a{
+    text-decoration: none;
+}
+.image{
+   display: block;
+
+}
+img{
+    width: 318px;
+    height: 194px;
+}
+.slider-item--title, .slider-item--description{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.slider-item--title{
+    font-size: 22px;
+    font-weight: bold;
+}
