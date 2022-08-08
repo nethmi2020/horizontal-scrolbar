@@ -1,0 +1,178 @@
+/* https://www.oberlo.com/blog/key-performance-indicators-kpis */
+/* footer */
+
+.padding-top{
+    padding-top: 2rem;
+}
+footer{
+    width: 100%;
+    background-color: rgb(16, 16, 59);
+    color: white;
+}
+
+.container{
+    padding: 1rem 3rem;
+}
+
+.wrapper{
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;
+    padding-left: 300px;
+    padding-right:250px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.left{
+    width: 25%;
+}
+.text-white {
+    /* opacity: 1; */
+    color: #f6f6f9;
+   
+}
+.left .social-item{
+    display: flex;
+    gap: 1rem;
+    margin-left: -35px;
+}
+.social-item li{
+    list-style: none;
+}
+.social-item li a{
+    text-decoration: none;
+    color: white;
+}
+
+select{
+    padding: 0.75rem 2rem;
+    width: 200px;
+    background-color: rgb(79, 79, 117);
+    color: white;
+    border-radius: 3px;
+}
+select:hover{
+    border: 1px solid white;
+    transition: 0.5s ease;
+}
+option{
+    background-color: white;
+    color: black;
+}
+.copy-right-info ul{
+    display: flex;
+    margin-left: -35px;
+
+    /* justify-content: flex-start; */
+}
+.copy-right-info ul li{
+    list-style-type: none;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 0 5px;
+}
+
+.right{
+    width: 75%;
+    font-size: 18px;
+}
+.righ-main-items{
+    display: flex;
+    gap: 2rem;
+}
+.righ-main-items {
+    text-decoration: none;
+    text-align: left;
+   
+}
+
+.righ-main-items .righ-main-item
+{
+    list-style: none;
+   
+}
+.righ-main-topic{
+    color: white;
+    text-decoration: none;
+    padding-bottom: 10px;
+    font-weight: bold;
+    
+}
+.right-sub-items{
+    padding-top: 20px;
+    margin-left: -30px;
+    font-size: 16px;
+}
+.right-sub-items .right-sub-item{
+   
+    list-style: none;
+    color: white;
+}
+
+.right-sub-item a{
+    text-decoration: none;
+    color: white;
+    line-height: 1.5rem;
+}
+
+@media (max-width:1545px){
+    .social-item{
+        display: flex;
+        flex-direction: column;
+        line-height: 0.5rem;
+        padding-top: 0;
+    }
+
+    .wrapper{
+        margin-left: -250PX;
+    }
+}
+
+@media (max-width:995PX){
+    .social-item{
+        display: flex;
+        flex-direction: column;
+        line-height: 0.5rem;
+        padding-top: 0;
+    }
+
+    .copy-right-items{
+        padding-top: 0;
+    }
+    
+    .wrapper{
+        gap: 25px;
+    }
+
+}
+
+@media (max-width:900PX){
+    .wrapper{
+        gap: 100px;
+        padding-right: 10px;
+        padding-left: 400px;
+     }
+    .righ-main-items{
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+
+@media (max-width:675PX){
+.wrapper{
+    padding-left: 300px;
+}
+}
+
+
+@media (max-width:490PX){
+    .wrapper{
+       display: flex;
+       flex-direction: column;
+    }
+    .left{
+        margin-left: 100px;
+    }
+    }
